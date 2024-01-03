@@ -38,12 +38,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/purple_200"
                 android:text="Google Sheet ID" />
 
             <EditText
                 android:id="@+id/googleSheetID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/purple_500"
                 android:text="13vq1wyaG7x9bPYak0OgYHspq14RAb60zvMNled9MyYs"
                 />
 
@@ -51,13 +53,15 @@
                 android:layout_marginTop="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/purple_200"
                 android:text="Sheet Name" />
 
             <EditText
                 android:id="@+id/googleSheetName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="booster"
+                android:textColor="@color/purple_500"
+                android:text="main"
                 />
 
             <androidx.cardview.widget.CardView
