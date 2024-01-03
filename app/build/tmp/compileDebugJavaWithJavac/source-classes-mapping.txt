@@ -1,0 +1,2 @@
+com/generator/pog/BuildConfig.java
+ com.generator.pog.BuildConfig

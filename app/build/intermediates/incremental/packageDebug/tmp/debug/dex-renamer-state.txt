@@ -1,0 +1,7 @@
+#Sat Jul 09 16:14:10 PST 2022
+base.1=/Users/tadashi/Documents/Android/Page One Generator(v013122)/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+path.1=classes.dex
+base.0=/Users/tadashi/Documents/Android/Page One Generator(v013122)/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

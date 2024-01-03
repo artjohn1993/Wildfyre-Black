@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity(), GoogleSheetView {
         } catch (e: PackageManager.NameNotFoundException) {
             e.printStackTrace()
         }
-        android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH
+
         bind()
     }
 
