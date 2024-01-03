@@ -1,6 +1,6 @@
-package com.generator.pog
+package com.generator.wildfyreblackmain
 
-import com.generator.pog.model.DefaultSettings
+import com.generator.wildfyreblackmain.model.DefaultSettings
 
 //var isRefresh  = false
 
