@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.generator.wildfyreblackmain">
+    package="com.generator.wildfyreblackspecific">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -26,10 +26,10 @@
         android:theme="@style/Theme.WebOpener"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="com.generator.wildfyreblackmain.activity.WordpressLoaderActivity"
+            android:name="com.generator.wildfyreblackspecific.activity.WordpressLoaderActivity"
             android:exported="false" />
         <activity
-            android:name="com.generator.wildfyreblackmain.activity.SplashScreenActivity"
+            android:name="com.generator.wildfyreblackspecific.activity.SplashScreenActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,9 +42,9 @@
             android:name="android.webkit.WebView.EnableSafeBrowsing"
             android:value="false" />
 
-        <activity android:name="com.generator.wildfyreblackmain.activity.MainActivity" />
+        <activity android:name="com.generator.wildfyreblackspecific.activity.MainActivity" />
 
-        <service android:name=".services.IdleChecker" />
+        <service android:name="com.generator.wildfyreblackspecific.services.IdleChecker" />
     </application>
 
 </manifest>
