@@ -12,4 +12,11 @@ class CalendarData {
         var finalDate = format.format(date.time)
         return finalDate
     }
+
+    fun getCurrentDate(): String {
+        var date = Calendar.getInstance()
+        var format = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'")
+        var finalDate = format.format(date.time)
+        return finalDate
+    }
 }
