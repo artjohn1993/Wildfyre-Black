@@ -1,0 +1,2 @@
+com/generator/special/test/BuildConfig.java
+ com.generator.special.test.BuildConfig

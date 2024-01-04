@@ -1,0 +1,7 @@
+#Thu Jan 04 10:48:55 PST 2024
+base.1=/Users/aws/Documents/GitHub/Wildfyre-Black/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/classes.dex
+path.1=classes.dex
+base.0=/Users/aws/Documents/GitHub/Wildfyre-Black/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
