@@ -50,11 +50,7 @@ class WordpressData {
     ) {
 
         if (!data.isEmpty()) {
-            if(page == 10) {
-                completionHandler.invoke(DownloadStatus.DONE)
-            } else {
-                completionHandler.invoke(DownloadStatus.NEXT)
-            }
+            completionHandler.invoke(DownloadStatus.NEXT)
         } else if (data.isEmpty() && page > 1) {
             completionHandler.invoke(DownloadStatus.DONE)
         } else {

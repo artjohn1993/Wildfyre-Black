@@ -264,7 +264,7 @@ class WordpressLoaderActivity : AppCompatActivity(), WordpressView {
             resetWordpress()
             downloadingCon.visibility = View.VISIBLE
             downloadingUrlTxt.text = urlData[0].url
-            presenter.getLatestPost("http://" + urlData[0].url + "/wp-json/wp/v2/posts?orderby=date&&page=${page}&&order=desc&&before=${calendar.getCurrentDate()}")
+            presenter.getLatestPost("http://" + urlData[0].url + "/wp-json/wp/v2/posts?orderby=date&&page=${page}&&order=desc&&after=${calendar.getLastMonth("30")}")
         }
     }
 
