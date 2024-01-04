@@ -61,7 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/purple_500"
-                android:text="wildfyre-nxtgen"
+                android:text="special"
                 />
 
             <androidx.cardview.widget.CardView
