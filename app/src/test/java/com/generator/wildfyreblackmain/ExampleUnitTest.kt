@@ -1,4 +1,4 @@
-package com.generator.wildfyreblackmain
+package com.generator.pageone
 
 import org.junit.Test
 

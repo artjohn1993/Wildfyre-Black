@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/purple_500"
-                android:text="13vq1wyaG7x9bPYak0OgYHspq14RAb60zvMNled9MyYs"
+                android:text="1jkeMegqzBvTvveS20LH3s5ejmQS4EeqrI69j6_5nsyY"
                 />
 
             <TextView
@@ -56,13 +56,27 @@
                 android:textColor="@color/purple_200"
                 android:text="Sheet Name" />
 
-            <EditText
-                android:id="@+id/googleSheetName"
+            <LinearLayout
+                android:id="@+id/sheetNameCon"
+                android:layout_marginTop="@dimen/margin_8"
+                android:background="@drawable/corner_line_background"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/purple_500"
-                android:text="main"
-                />
+                android:gravity="center"
+                android:orientation="horizontal">
+                <Spinner
+                    android:layout_marginLeft="@dimen/margin_32"
+                    android:id="@+id/googleSheetNameSpinner"
+                    android:layout_width="match_parent"
+                    android:background="@color/transparent"
+                    android:layout_height="40sp" />
+                <ImageView
+                    android:layout_marginRight="@dimen/margin_32"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_dropdown" />
+
+            </LinearLayout>
 
             <androidx.cardview.widget.CardView
                 android:visibility="gone"
