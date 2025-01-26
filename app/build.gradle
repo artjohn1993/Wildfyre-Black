@@ -14,7 +14,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.generator.pageone"
+        applicationId "com.generator.wildfyre"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
