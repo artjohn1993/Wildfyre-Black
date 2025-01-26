@@ -66,9 +66,9 @@ class MainActivity : AppCompatActivity(), GoogleSheetView, AdapterView.OnItemSel
             supportActionBar?.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM)
             supportActionBar?.setCustomView(R.layout.custom_action_bar)
             action_bar_title.setText("WILDFYRE Generator")
-            action_bar_subtitle.setText("v.20250124.4")
-                //POG_v.20250124.4
-                //WildFyre black to POG
+            action_bar_subtitle.setText("v.20250126.1")
+                //wildfyre_v.20250126.1
+                //WildFyre black to WildFyre
         } catch (e: PackageManager.NameNotFoundException) {
             e.printStackTrace()
         }
